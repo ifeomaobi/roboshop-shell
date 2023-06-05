@@ -1,7 +1,7 @@
 echo -e '\e[33mInstalling Nginx Server\e[0m'
 yum install nginx -y
 
-echo -e '\e[33mRemoving Ole App content\e[0m'
+echo -e '\e[33mRemoving Old App content\e[0m'
 rm -rf /usr/share/nginx/html/*
 
 echo -e '\e[33mDownloading Frontend Content\e[0m'
